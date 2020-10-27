@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Интернет магазин Техномарт</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cuprum&family=PT+Sans&display=swap"> 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="main-page">
+<header class="header-page">
+  <div class="basket">
+    <div class="logo">
+      <img src="img/logo-technomart.png" width="107" height="17" alt="Логотип Техномарт">
+    </div>
+     <ul class="basket-list">
+      <li class="basket-item search">
+        <img src="img/icon-search.png" width="17" height="16" alt="Иконка поиска"><span>Поиск</span>
+      </li>
+      <li class="basket-item bookmark">
+        <p><img src="img/icon-bookmark.png" width="14" height="16" alt="Иконка закладка">
+       <span>Закладки: 0</span></p>
+      </li>
+      <li class="basket-item cart cart-catalog">
+        <p><img src="img/icon-cart.png" width="15" height="15" alt="Иконка корзины"><span>Корзина: 0</span></p>
+      </li>
+      <li class="basket-item">
+        <div class="customs">
+          <p>Оформить заказ</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="avtorization">
+    <ul class="avtorization-list">
+      <li class="avtorization-item1">
+        <div class="text"><p>Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</p></div>
+      </li>
+      <li class="avtorization-item2">
+        <div class="tel">
+          <img src="img/icon-phone.png" width="19" height="19" alt="Иконка телефона">
+          <a class="telephone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+        </div>
+        <p class="adress">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
+      </li>
+      <li class="avtorization-item3 catalog-avtorization-item3">
+          <button class="login" type="button">Войти</button>
+          <button class="registration" type="button">Регистрация</button>
+        </li>
+    </ul>
+  </div>
+  <section class="navigation">
+  <nav class="main-nav">
+    <div class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Компания</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Каталог</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Новости</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Спецпредложения</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Доставка</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+      </ul> 
+    </div>
+  </nav>
+</section>
+</header>
+
+<main class="main">
+    <section class="catalog-head">
+        <div class="path">
+            <ul class="path-list">
+                <div class="path-icon">
+                    <img src="img/icon-home.png" width="14" height="12" alt="иконка дома">
+                </div>
+                <div class="right-small">
+                    <img src="img/icon-right-small.png" width="8" height="12"  alt="стрелочка вправо">
+                </div>
+                <li class="path-item">Каталог</li>
+                <div class="right-small">
+                    <img src="img/icon-right-small.png" width="8" height="12"  alt="стрелочка вправо">
+                </div>
+                <li class="path-item">Инструмент</li>
+                <div class="right-small">
+                    <img src="img/icon-right-small.png" width="8" height="12"  alt="стрелочка вправо">
+                </div>
+                <li class="path-item">Перфораторы</li>
+            </ul>
+        </div>
+    </section>
+
+    
+        <div class="title-product">
+            <h2>Перфораторы</h2>
+        </div>
+
+    <section class="sorting-title">
+        <div class="filter-heading">
+           <p>фильтр:</p>
+        </div>
+
+        <div class="sorting">
+            
+            <ul class="sorting-list">
+                <li class="sorting-item">сортировка:</li>
+                <li class="sorting-item">по цене</li>
+                <li class="sorting-item">по типу</li>
+                <li class="sorting-item">по функционалу</li>
+                <li class="sorting-item">
+                    <button class="arrows-sorting" type="button">
+                        <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.5 0L11 10L0 10" fill="#EE3643"/>
+                            </svg>
+                    </button>
+                    <button class="arrows-sorting"  type="button">
+                        <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.5 10L0 0H11" fill="#C5C5C5"/>
+                            </svg>                            
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+<section class="products">
+  <div class="filter">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <form class="filter-bar" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset class="filter-price">
+          <legend>цена:</legend>
+          <div class="range-filter">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min" tabindex="0"></div>
+            <div class="toggle toggle-max" tabindex="0"></div>
+
+            </div>
+            <div class="price-controls"> 
+              <label class="min-price">
+                <input type="number" name="min-price" value="0">
+              </label>
+              <div class="line-price"></div>
+              <label class="max-price">
+                <input type="number" name="max-price" value="30000">
+              </label
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="line-hr"></div>
+
+        <fieldset class="filter-brand">
+          <legend>производители:</legend>
+          <ul>
+            <li class="filter-option filter-checkbox">
+              <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="Bosch" 
+              id="filter-bosch" checked>
+            <label for="filter-bosch">Bosch</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="Interscol" 
+              id="filter-interscol" checked>
+            <label for="filter-interscol">Интерскол</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="Makita" 
+              id="filter-makita" checked>
+            <label for="filter-makita">Makita</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="Dewalt" 
+              id="filter-dewalt" checked>
+            <label for="filter-dewalt">Dewalt</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="Hitachi" 
+              id="filter-hitachi" checked>
+            <label for="filter-hitachi">Hitachi</label>
+            </li>
+          </ul>
+        </fieldset>
+        <div class="line-hr"></div>
+
+       <fieldset class="filter-power">
+         <legend>Питание:</legend>
+         <ul>
+           <li class="filter-option filter-radio">
+            <input class="visually-hidden filter-input-radio filter-input" type="radio" name="power"
+            value="batary" id="filter-batary" checked>
+            <label for="filter-batary">Аккумуляторные</label>
+           </li>
+           <li class="filter-option filter-radio">
+            <input class="visually-hidden filter-input-radio filter-input" type="radio" name="power" 
+            value="wires" id="filter-wires" checked>
+            <label for="filter-wires">Сетевые</label>
+           </li>
+          </ul>
+          <button class="button-look" type="submit">
+            Показать
+        </button>
+      </form>
+    </div>
+
+
+<div class="choise-product">
+    <div class="item-product">
+        <img src="img/cart1.png" width="220" height="318" alt="Карточка товара">
+    </div>
+        <div class="item-product">
+            <img src="img/cart1.png" width="220" height="318" alt="Карточка товара">
+        </div>
+        <div class="item-product"> 
+            <img src="img/card-hover.png" width="220" height="318" alt="Карточка товара">
+        </div>
+        <div class="item-product">
+            <img src="img/cart2.png" width="220" height="318" alt="Карточка товара">
+        </div>
+        <div class="item-product">
+            <img src="img/cart1.png" width="220" height="318" alt="Карточка товара">
+        </div>
+        <div class="item-product">
+            <img src="img/cart3.png" width="220" height="318" alt="Карточка товара">
+        </div>
+        <div class="item-product">
+            <img src="img/cart2.png" width="220" height="318" alt="Карточка товара">
+        </div>
+        <div class="item-product">
+            <img src="img/cart1.png" width="220" height="318" alt="Карточка товара">
+        </div>
+        <div class="item-product">
+            <img src="img/cart3.png" width="220" height="318" alt="Карточка товара">
+        </div>
+</div>
+<div class="button-pagination">
+    <button class="page-numb active-pagination">1</button>
+    <button class="page-numb">2</button>
+    <button class="page-numb">3</button>
+    <button class="page-numb next">Следующая</button>
+</div>
+</section>
+
+<section class="about-product">
+    <h2>Пара слова о перфораторах</h2>
+    <div class="about-text"> 
+      <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+        Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.<br> 
+        В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+    </div>
+    
+</section>
+</main>
+
+
+<footer class="main-footer">
+    <div class="footer-big">
+  
+      <div class="logo-footer">
+        <img src="img/logo-technomart.png" width="138" height="23" alt="Логотип Техномарт">
+      </div>
+  
+      <div class="adress-f">
+      <p class="adress-footer">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8 <br>
+        +7 (812) 555-05-55</p>
+      </div>
+      <div class="footer-list">
+      <ul class="footer-list1">
+        <li class="item-footer-row1"><a href="#" class="link-small">Компания</a></li>
+        <li class="item-footer-row1"><a href="#" class="link-small">Новости</a></li>
+        <li class="item-footer-row1"><a href="#" class="link-small">Каталог</a></li>
+        <li class="item-footer-row1"><a href="#" class="link-small">Доставка</a></li>
+        <li class="item-footer-row1"><a href="#" class="link-small">Контакты</a></li>
+      </ul>
+      <ul class="footer-list2">
+        <li class="item-footer-row2"><a href="#" class="link-small">Материалы</a></li>
+        <li class="item-footer-row2"><a href="#" class="link-small">Техника</a></li>
+        <li class="item-footer-row2"><a href="#" class="link-small">Инструмент</a></li>
+        <li class="item-footer-row2"><a href="#" class="link-small">Спецпредложения</a></li>
+      </ul>
+       </div>
+    </div>
+    <div class="footer-small">
+  <div class="copyright">
+    <p>© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
+  </div>
+  <div class="social">
+    <div class="social-icon">
+      <img src="img/icon-vk.png" class="vk" width="26" height="15" alt="vkontakte">
+    </div>
+    <div class="social-icon">
+      <img src="img/icon-fb.png" class="fb" width="12" height="22" alt="facebook">
+    </div>
+    <div class="social-icon">
+      <img src="img/icon-insta.png" class="inst" width="21" height="21" alt="instagramm">
+    </div>
+  </div>
+  <div class="feedback">
+    <p class="back">Обратная связь:<br><a class="link-out" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+    <p class="html">Разработано —<br><a class="link-out" href="www.htmlacademy.ru">htmlacademy.ru</a></p>
+  </div>
+    </div>
+  </footer>
