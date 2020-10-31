@@ -7,32 +7,35 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="main-page">
+  <body class="page-body">
 <header class="header-page">
-  <div class="basket">
-    <div class="logo">
-      <img src="img/logo-technomart.png" width="107" height="17" alt="Логотип Техномарт">
-    </div>
-     <ul class="basket-list">
-      <li class="basket-item search">
-        <img src="img/icon-search.png" width="17" height="16" alt="Иконка поиска"><span>Поиск</span>
-      </li>
-      <li class="basket-item bookmark">
-        <p><img src="img/icon-bookmark.png" width="14" height="16" alt="Иконка закладка">
-       <span>Закладки: 0</span></p>
-      </li>
-      <li class="basket-item cart cart-catalog">
-        <div class="customs-red">
-        <p><img src="img/icon-cart.png" width="15" height="15" alt="Иконка корзины"><span>Корзина: 0</span></p>
+  <div class="basket-wrapper">
+    <div class="basket">
+      <div class="logo">
+        <img src="img/logo-technomart.png" width="107" height="17" alt="Логотип Техномарт">
       </div>
-      </li>
-      <li class="basket-item cart cart-catalog">
-        <div class="customs">
-          <p>Оформить заказ</p>
+       <ul class="basket-list">
+        <li class="basket-item search">
+          <img src="img/icon-search.png" width="17" height="16" alt="Иконка поиска"><span>Поиск</span>
+        </li>
+        <li class="basket-item bookmark">
+          <p><img src="img/icon-bookmark.png" width="14" height="16" alt="Иконка закладка">
+         <span>Закладки: 0</span></p>
+        </li>
+        <li class="basket-item cart cart-catalog">
+          <div class="customs-red">
+          <p><img src="img/icon-cart.png" width="15" height="15" alt="Иконка корзины"><span>Корзина: 0</span></p>
         </div>
-      </li>
-    </ul>
+        </li>
+        <li class="basket-item cart cart-catalog">
+          <div class="customs">
+            <p>Оформить заказ</p>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
+ <div class="wrapper-header">
   <div class="avtorization">
     <ul class="avtorization-list">
       <li class="avtorization-item1">
@@ -79,9 +82,11 @@
     </div>
   </nav>
 </section>
+</div>
 </header>
 
 <main class="main">
+  <div class="container">
     <section class="catalog-head">
         <div class="path">
             <ul class="path-list">
@@ -109,7 +114,6 @@
         </div>
     </section>
 
-    
         <div class="title-product">
             <h2>Перфораторы</h2>
         </div>
@@ -120,7 +124,6 @@
         </div>
 
         <div class="sorting">
-            
             <ul class="sorting-list">
                 <li class="sorting-item">сортировка:</li>
                 <li class="sorting-item">по цене</li>
@@ -169,6 +172,7 @@
         </div>
         </div>
         </fieldset>
+      
 
         <div class="line-hr"></div>
 
@@ -224,6 +228,7 @@
         </fieldset>
       </form>
     </div>
+    
 
 
 <div class="choise-product">
@@ -262,67 +267,70 @@
     <button class="page-numb next">Следующая</button>
 </div>
 </section>
+</div>
 
-<section class="about-product">
+<section class="about-block">
+<div class="about-product">
     <h2>Пара слова о перфораторах</h2>
     <div class="about-text"> 
-      <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
-        Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.<br> 
-        В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+      <p>Перфоратор — универсальный строительный инструмент. &nbsp;Предназначен для сверления и &nbsp;долбления отверстий в кирпиче, бетоне и камне.<br>
+        Существуют &nbsp;электромеханические &nbsp;и &nbsp;пневматические &nbsp;перфораторы. &nbsp;Современные &nbsp;модели &nbsp;могут &nbsp;выполнять&nbsp; &nbsp;функции &nbsp;дрели, &nbsp;шуруповерта и &nbsp;отбойного &nbsp;&nbsp;&nbsp;молотка.
+        <br>В ассортиментном ряду &nbsp;есть выбор «трехрежимников»: &nbsp;в одном устройстве будут &nbsp;совмещены&nbsp; отбойный молоток и ударная дрель.</p>
     </div>
-    
+  </div>
 </section>
 </main>
 
 
 <footer class="main-footer">
-    <div class="footer-big">
+  <div class="footer-big">
+    <div class="logo-footer">
+      <img src="img/logo-technomart.png" width="138" height="23" alt="Логотип Техномарт">
+    </div>
+
+    <div class="adress-f">
+    <p class="adress-footer">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8 <br>
+      +7 (812) 555-05-55</p>
+    </div>
+    <ul class="footer-list1">
+      <li class="item-footer-row1"><a href="#" class="link-small">Компания</a></li>
+      <li class="item-footer-row1"><a href="#" class="link-small">Новости</a></li>
+      <li class="item-footer-row1"><a href="#" class="link-small">Каталог</a></li>
+      <li class="item-footer-row1"><a href="#" class="link-small">Доставка</a></li>
+      <li class="item-footer-row1"><a href="#" class="link-small">Контакты</a></li>
+    </ul>
+    <ul class="footer-list2">
+      <li class="item-footer-row2"><a href="#" class="link-small">Материалы</a></li>
+      <li class="item-footer-row2"><a href="#" class="link-small">Техника</a></li>
+      <li class="item-footer-row2"><a href="#" class="link-small">Инструмент</a></li>
+      <li class="item-footer-row2"><a href="#" class="link-small">Спецпредложения</a></li>
+    </ul>
+     </div>
   
-      <div class="logo-footer">
-        <img src="img/logo-technomart.png" width="138" height="23" alt="Логотип Техномарт">
-      </div>
-  
-      <div class="adress-f">
-      <p class="adress-footer">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8 <br>
-        +7 (812) 555-05-55</p>
-      </div>
-      <div class="footer-list">
-      <ul class="footer-list1">
-        <li class="item-footer-row1"><a href="#" class="link-small">Компания</a></li>
-        <li class="item-footer-row1"><a href="#" class="link-small">Новости</a></li>
-        <li class="item-footer-row1"><a href="#" class="link-small">Каталог</a></li>
-        <li class="item-footer-row1"><a href="#" class="link-small">Доставка</a></li>
-        <li class="item-footer-row1"><a href="#" class="link-small">Контакты</a></li>
-      </ul>
-      <ul class="footer-list2">
-        <li class="item-footer-row2"><a href="#" class="link-small">Материалы</a></li>
-        <li class="item-footer-row2"><a href="#" class="link-small">Техника</a></li>
-        <li class="item-footer-row2"><a href="#" class="link-small">Инструмент</a></li>
-        <li class="item-footer-row2"><a href="#" class="link-small">Спецпредложения</a></li>
-      </ul>
-       </div>
-    </div>
-    <div class="footer-small">
-  <div class="copyright">
-    <p>© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
+  <div class="footer-small-wrapper">
+  <div class="footer-small">
+<div class="copyright">
+  <p>© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
+</div>
+<div class="social">
+  <div class="social-icon">
+    <img src="img/icon-vk.png" class="vk" width="26" height="15" alt="vkontakte">
   </div>
-  <div class="social">
-    <div class="social-icon">
-      <img src="img/icon-vk.png" class="vk" width="26" height="15" alt="vkontakte">
-    </div>
-    <div class="social-icon">
-      <img src="img/icon-fb.png" class="fb" width="12" height="22" alt="facebook">
-    </div>
-    <div class="social-icon">
-      <img src="img/icon-insta.png" class="inst" width="21" height="21" alt="instagramm">
-    </div>
+  <div class="social-icon">
+    <img src="img/icon-fb.png" class="fb" width="12" height="22" alt="facebook">
   </div>
-  <div class="feedback">
-    <p class="back">Обратная связь:<br><a class="link-out" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
-    <p class="html">Разработано —<br><a class="link-out" href="www.htmlacademy.ru">htmlacademy.ru</a></p>
+  <div class="social-icon">
+    <img src="img/icon-insta.png" class="inst" width="21" height="21" alt="instagramm">
   </div>
-    </div>
-  </footer>
+</div>
+<div class="feedback">
+  <p class="back">Обратная связь:<br><a class="link-out" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+  <p class="html">Разработано —<br><a class="link-out" href="www.htmlacademy.ru">htmlacademy.ru</a></p>
+</div>
+  </div>
+</div>
+</footer>
+
   <section class="cart-popup">
     <div class="cart-buy">
       <div class="top-red-min">

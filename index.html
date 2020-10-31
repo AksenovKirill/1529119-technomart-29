@@ -9,29 +9,32 @@
   </head>
   <body class="page-body">
 <header class="header-page">
-  <div class="wrapper-header">
-  <div class="basket">
-    <div class="logo">
-      <img src="img/logo-technomart.png" width="107" height="17" alt="Логотип Техномарт">
+  <div class="basket-wrapper">
+    <div class="basket">
+      <div class="logo">
+        <img src="img/logo-technomart.png" width="107" height="17" alt="Логотип Техномарт">
+      </div>
+       <ul class="basket-list">
+        <li class="basket-item search">
+          <img src="img/icon-search.png" width="17" height="16" alt="Иконка поиска"><span>Поиск</span>
+        </li>
+        <li class="basket-item bookmark">
+          <p><img src="img/icon-bookmark.png" width="14" height="16" alt="Иконка закладка">
+         <span>Закладки: 0</span></p>
+        </li>
+        <li class="basket-item cart">
+          <p><img src="img/icon-cart.png" width="15" height="15" alt="Иконка корзины"><span>Корзина: 0</span></p>
+        </li>
+        <li class="basket-item">
+          <div class="customs">
+            <p>Оформить заказ</p>
+          </div>
+        </li>
+      </ul>
     </div>
-     <ul class="basket-list">
-      <li class="basket-item search">
-        <img src="img/icon-search.png" width="17" height="16" alt="Иконка поиска"><span>Поиск</span>
-      </li>
-      <li class="basket-item bookmark">
-        <p><img src="img/icon-bookmark.png" width="14" height="16" alt="Иконка закладка">
-       <span>Закладки: 0</span></p>
-      </li>
-      <li class="basket-item cart">
-        <p><img src="img/icon-cart.png" width="15" height="15" alt="Иконка корзины"><span>Корзина: 0</span></p>
-      </li>
-      <li class="basket-item">
-        <div class="customs">
-          <p>Оформить заказ</p>
-        </div>
-      </li>
-    </ul>
   </div>
+  
+  <div class="wrapper-header">
   <div class="avtorization">
     <ul class="avtorization-list">
       <li class="avtorization-item1">
@@ -68,6 +71,7 @@
 </div>
 </header>
 <main class="main">
+  <div class="container">
 <section class="catalog">
   <h2 class="visually-hidden">Каталог</h2>
   <div class="catalog-item1 box-min">
@@ -132,9 +136,11 @@
     <button class="button-box" type="button"><span>бесплатно</span></button>
   </div>
 </section>
+
 <section class="popular-product">
   <div class="popular-title popular"><h2>Популярные товары:</h2>
-    <button class="button-red">Все популярные товары</button></div>
+    <button class="button-red">Все популярные товары</button>
+  </div>
 <div class="partner">
     <img src="img/product1.png" width="220" height="318" alt="Логотип товара">
     <img src="img/product2.png" width="220" height="318" alt="Логотип товара">
@@ -142,6 +148,7 @@
     <img src="img/product4.png" width="220" height="318" alt="Логотип товара">
 </div>
 </section>
+
 <section class="popular-generator">
   <div class="popular-title popular"><h2>Популярные производители:</h2>
     <button class="button-red">Все производители</button></div>
@@ -156,7 +163,9 @@
     <img src="img/partner8.png" width="220" height="145" alt="Логотип партнера">
 </div>
 </section>
+</div>
 <section class="service">
+  <div class="service-container">
 <div class="description1">
   <h2>Сервисы</h2>
   <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
@@ -174,8 +183,9 @@
         Ведь мы неплохо заработаем,<br>  
         поднимая его на ваш этаж!</p>
     </div>
-
+  </div>
 </section>
+
 <section class="map">
   <div class="about">
     <h2>Компания «Техномарт»</h2>
@@ -210,13 +220,11 @@
       <img src="img/map-mini.png" width="300" height="158" alt="Мини карта">
       <button class="button-red-map">Заблудились? Напишите нам!</button>
     </div>
-    </section>
-
-
+  </section>
 </main>
+
 <footer class="main-footer">
   <div class="footer-big">
-
     <div class="logo-footer">
       <img src="img/logo-technomart.png" width="138" height="23" alt="Логотип Техномарт">
     </div>
@@ -225,7 +233,6 @@
     <p class="adress-footer">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8 <br>
       +7 (812) 555-05-55</p>
     </div>
-    <div class="footer-list">
     <ul class="footer-list1">
       <li class="item-footer-row1"><a href="#" class="link-small">Компания</a></li>
       <li class="item-footer-row1"><a href="#" class="link-small">Новости</a></li>
@@ -240,7 +247,8 @@
       <li class="item-footer-row2"><a href="#" class="link-small">Спецпредложения</a></li>
     </ul>
      </div>
-  </div>
+  
+  <div class="footer-small-wrapper">
   <div class="footer-small">
 <div class="copyright">
   <p>© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
@@ -261,6 +269,7 @@
   <p class="html">Разработано —<br><a class="link-out" href="www.htmlacademy.ru">htmlacademy.ru</a></p>
 </div>
   </div>
+</div>
 </footer>
 <div class="container-popup">
   <section class="write-us-popup">
